@@ -31,3 +31,26 @@ To capture live network packets and identify at least 3 different protocols.
 
 ## File
 - `task5_capture.pcap`: The exported Wireshark capture file.
+
+## 📸 Screenshots
+
+### 🔹 DNS Filter Applied
+![DNS Filter](screenshots/dns_filter.PNG)  
+Displays DNS queries and responses captured during the scan.
+
+### 🔹 TCP Filter Applied
+![TCP Filter](screenshots/tcp_filter.PNG)  
+Shows TCP connection setup and TLS traffic over TCP protocol.
+
+### 🔹 TCP Packet Details (SYN)
+![Packet Details 1](screenshots/packet_details1.PNG)  
+Breakdown of TCP SYN packet fields such as flags, ports, and sequence numbers.
+
+### 🔹 Ethernet + IP Layers
+![Packet Details 2](screenshots/packet_details2.PNG)  
+Demonstrates Ethernet and IPv6 layer information in a selected TCP packet.
+
+### 🔹 Frame Metadata
+![Packet Details 3](screenshots/packet_details3.PNG)  
+Highlights arrival time, length, and protocol details for the selected frame.
+
